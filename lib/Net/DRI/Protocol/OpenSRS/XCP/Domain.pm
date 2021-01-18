@@ -75,7 +75,7 @@ sub register_commands
           check => [\&check, \&check_parse ],
           create => [ \&create, \&create_parse ], ## TODO : parsing of return messages
           delete => [ \&delete, \&delete_parse ],
-	        renew => [ \&renew, \&renew_parse ],
+          renew => [ \&renew, \&renew_parse ],
           transfer_request => [ \&transfer_request, \&transfer_request_parse ],
           transfer_query => [ \&transfer_query, \&transfer_query_parse ],
           transfer_cancel => [ \&transfer_cancel, \&transfer_cancel_parse ],
